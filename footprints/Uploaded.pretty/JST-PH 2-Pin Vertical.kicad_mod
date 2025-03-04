@@ -1,0 +1,170 @@
+(footprint "JST-PH 2-Pin Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "486f51b9-af2e-45af-b053-19d587457024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JST-PH 2-Pin Vertical"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15a1cdd4-04ca-4a7a-af4f-9e80d8c40162")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46e7cc1d-794c-46c8-b23e-4a9d25b6527f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f947992f-d169-4def-aadd-d09a65223f06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "359b502d-5f92-414c-9fb8-52e7d2cc11d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -2.7)
+		(end -3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65641e18-d92b-40aa-96fa-2554c6d5d474")
+	)
+	(fp_line
+		(start -3 -2.7)
+		(end -0.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "345c43ad-59ea-4120-ad8d-8737b76729e4")
+	)
+	(fp_line
+		(start -3 2)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff6d1563-89f2-4c36-90fc-aa3a0595952d")
+	)
+	(fp_line
+		(start 3 -2.7)
+		(end 0.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f98154f-4f0a-4752-909b-5deabdb31297")
+	)
+	(fp_line
+		(start 3 2)
+		(end 3 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20e19cfa-2e64-4bf8-af03-1eea0eb51e98")
+	)
+	(fp_rect
+		(start -3.2 -2.9)
+		(end 3.2 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0b7fa981-25fc-4ca4-8099-ce7d224471b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5962dd1a-4b1b-4c6a-a1fc-93f162b97487")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1 -1)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c58fde5e-98b8-4a2e-b1ea-12e5ebfa8ac2")
+	)
+	(pad "2" thru_hole circle
+		(at -1 -1)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97f5498d-20e3-4683-a43a-6335bbfb5239")
+	)
+	(model "C:/Users/Violet/Documents/KiCad/8.0/3dmodels/JST-PH-2.step"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
