@@ -1,5 +1,5 @@
 # gl-electronics
-This is a component library, not a KiCAD project. It is included as a submodule in all Gillespie Lab KiCAD projects, so you generally do not need to download it by hand.
+This is a component library, not a KiCAD project. It is included as a submodule in all Gillespie Lab KiCAD projects, so you generally do not need to download it by hand. KiCAD can be downloaded at https://www.kicad.org/download/
 
 # Download Instructions
 1. Clone the repo `git clone https://github.com/gillespielab/gl-electronics`
